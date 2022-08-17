@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AiLaTrieuPhu</string>
+    <string name="play">PLAY</string>
+    <string name="hight_score">Hight Score</string>
+    <string name="time">time</string>
+    <string name="txt_score">Score :</string>
+    <string name="score">0</string>
+    <string name="alert_exitgame">Exit Game !</string>
+    <string name="txt_doyouwantexit">Do you want exit Game?</string>
+    <string name="over_game">over game</string>
+    <string name="name_player">Tên người chơi</string>
+    <string name="name">Nhập tên người chơi</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="back">Quay lại</string>
+    <string name="money_lv1">200,000</string>
+    <string name="money_lv2">400,000</string>
+    <string name="money_lv3">600,000</string>
+    <string name="money_lv4">1,000,000</string>
+    <string name="money_lv5">2,000,000</string>
+    <string name="money_lv6">3,000,000</string>
+    <string name="money_lv7">6,000,000</string>
+    <string name="money_lv8">10,000,000</string>
+    <string name="money_lv9">14,000,000</string>
+    <string name="money_lv10">20,000,000</string>
+    <string name="money_lv11">30,000,000</string>
+    <string name="money_lv12">40,000,000</string>
+    <string name="money_lv13">60,000,000</string>
+    <string name="money_lv14">85,000,000</string>
+    <string name="money_lv15">150,000,000</string>
+    <string name="ready">Bạn đã sẵn sàng chơi?</string>
+    <string name="stop_game">Bạn muốn dừng cuộc chơi?</string>
+
+
+</resources>

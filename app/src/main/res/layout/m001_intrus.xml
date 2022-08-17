@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/money_background"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_50_50"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/bg_5050" />
+
+        <ImageView
+            android:id="@+id/img_call"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/bg_call" />
+
+        <ImageView
+            android:id="@+id/img_khangia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/bg_khangia" />
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tv_money15"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_money"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/money_lv15"
+                android:textColor="#FF9800"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv14"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv13"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv12"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv11"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_money"
+                android:gravity="center"
+                android:text="@string/money_lv10"
+                android:textStyle="bold"
+                android:textColor="#FF9800"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv9"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv8"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv7"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv6"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bg_money"
+                android:gravity="center"
+                android:text="@string/money_lv5"
+                android:textColor="#FF9800"
+                android:textSize="@dimen/size_text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_money4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/money_lv2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_text"/>
+
+            <TextView
+                android:id="@+id/tv_money1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="@string/money_lv1"
+                android:background="@drawable/bg_money"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#FF9800"
+                android:textSize="@dimen/size_text"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_hide"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_button"
+            android:text="Sẵn sàng" />
+
+        <Button
+            android:id="@+id/btn_backhome1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_button"
+            android:text="Trở về" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

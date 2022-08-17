@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/home_background"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center">
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@anim/rotate_circle"
+                android:indeterminateDuration="20000"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_logo_app"
+                android:padding="40dp"/>
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/play"
+                android:padding="15dp"
+                android:fontFamily="@font/sailec_bold"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:background="@drawable/bg_button"
+                android:textSize="16sp"/>
+            <Button
+                android:id="@+id/btn_hightscore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/hight_score"
+                android:textAllCaps="true"
+                android:fontFamily="@font/sailec_bold"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:padding="15dp"
+                android:background="@drawable/bg_button"
+                android:textSize="16sp"/>
+            <Button
+                android:id="@+id/btn_intrus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="instructions"
+                android:textAllCaps="true"
+                android:fontFamily="@font/sailec_bold"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:padding="15dp"
+                android:background="@drawable/bg_button"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>
